@@ -1,0 +1,112 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #FFC8C8;
+	transition: 1.5s;
+}
+#headerBlock{
+	background: #FF0082;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 130px;
+	width: 100%;
+	animation-name: A1;
+  animation-duration: 2s;
+}
+@keyframes A1 {
+  0%{background: transparent;}
+  100%{background: #FF0082;}
+}
+.top{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: 'Sriracha', cursive;
+	user-select: none;
+	animation-name: At;
+  animation-duration: 2s;
+}
+.heart1, .heart2{
+	position: absolute;
+	top: 20px;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: 'Sriracha', cursive;
+	user-select: none;
+	animation-name: At;
+  animation-duration: 2s;
+}
+.heart1{left: 5%}
+.heart2{right: 5%}
+#textbox{
+	background: #F09191;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	height: 80px;
+	width: 100%;
+	animation-name: A2;
+  animation-duration: 3s;
+}
+@keyframes A2 {
+  0%{background: transparent;}
+  100%{background: #F09191;}
+}
+.titleDescription, .titleDescription2{
+	position: relative;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Sriracha', cursive;
+	user-select: none;
+	animation-name: At;
+  animation-duration: 3s;
+}
+.titleDescription{
+	top: -10px;
+	font-size: 23px;
+}
+.titleDescription2{
+	top: -30px;
+	font-size: 18px;
+}
+#nameT{
+	background: #F0BEBE;
+	position: absolute;
+	top: 210px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+	animation-name: A3;
+  animation-duration: 4s;
+}
+@keyframes A3 {
+  0%{background: transparent;}
+  100%{background: #F0BEBE;}
+}
+.tln{
+	top: -15px;
+	position: relative;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+	user-select: none;
+	animation-name: At;
+  animation-duration: 4s;
+}
+@keyframes At {
+  0%{color: transparent;}
+  100%{color: #FFFFFF;}
+}
+
+
+.historyHoliday{
+	background: #FF0082;
+	position: absolute;
+	top: 550px;
+	left: 0px;
+	height: 130px;
+	width: 100%;
+}
+
